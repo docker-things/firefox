@@ -12,6 +12,12 @@ FIFO_PATH="/tmp/docker-things/fifo"
 # The name of the docker image
 PROJECT_NAME="firefox"
 
+# Meta to set in the .desktop file
+APP_GENERIC_NAME="Web Browser"
+APP_CATEGORIES="GNOME;GTK;Network;WebBrowser;"
+APP_MIME_TYPE="text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;"
+APP_PARAM="%u"
+
 # BUILD ARGS
 BUILD_ARGS=(
     )

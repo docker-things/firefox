@@ -32,4 +32,4 @@ RUN apt-get update \
 USER $DOCKER_USERNAME
 
 # ENTRYPOINT
-ENTRYPOINT /usr/bin/firefox
+ENTRYPOINT ["/usr/bin/firefox"]

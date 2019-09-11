@@ -32,5 +32,4 @@ RUN apt-get update \
 USER $DOCKER_USERNAME
 
 # ENTRYPOINT
-ENTRYPOINT /usr/bin/dbus-launch /usr/bin/firefox --no-remote
-
+ENTRYPOINT /usr/bin/firefox

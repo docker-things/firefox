@@ -1,4 +1,4 @@
-FROM gui-apps-base:18.04
+FROM gui-apps-base:20.04
 MAINTAINER Gabriel Ionescu <gabi.ionescu+dockerthings@protonmail.com>
 
 RUN apt-get update \
